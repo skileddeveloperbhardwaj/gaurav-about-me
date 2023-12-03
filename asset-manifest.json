@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/gaurav-about-me/static/css/main.f96f07a4.css",
-    "main.js": "/gaurav-about-me/static/js/main.b630bcdd.js",
+    "main.js": "/gaurav-about-me/static/js/main.8163f210.js",
     "static/js/787.c67d187e.chunk.js": "/gaurav-about-me/static/js/787.c67d187e.chunk.js",
     "static/media/profile_pic.png": "/gaurav-about-me/static/media/profile_pic.8ef2ae7baeb2b5a5e843.png",
     "index.html": "/gaurav-about-me/index.html",
     "main.f96f07a4.css.map": "/gaurav-about-me/static/css/main.f96f07a4.css.map",
-    "main.b630bcdd.js.map": "/gaurav-about-me/static/js/main.b630bcdd.js.map",
+    "main.8163f210.js.map": "/gaurav-about-me/static/js/main.8163f210.js.map",
     "787.c67d187e.chunk.js.map": "/gaurav-about-me/static/js/787.c67d187e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f96f07a4.css",
-    "static/js/main.b630bcdd.js"
+    "static/js/main.8163f210.js"
   ]
 }
