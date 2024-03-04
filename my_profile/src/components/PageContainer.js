@@ -5,13 +5,15 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import profile_pic from '../images/profile_pic.png';
 import ProfileNavigationBar from './ProfileNavigationBar';
+import Summary from './Summary';
+import DunAndBradstreet from './WorkHistory';
 
 function PageContainer() {
   return (
     <>
     <ProfileNavigationBar/>
-    <Container fluid style={{ padding: '2px', borderStyle: 'groove', backgroundColor:'#FF5733' }}>
-      <Row>
+    <Container fluid style={{ padding: '2px'}}>
+      <Row style={{borderStyle: 'groove', backgroundColor:'#FF5733' }}>
         <Col xs lg="1">
           <Image src={profile_pic} rounded width={100} height={125} />
         </Col>
@@ -26,6 +28,17 @@ function PageContainer() {
             </Card.Body>
           </Card>
         </Col>
+      </Row>
+      <Row>
+        <Summary/>
+      </Row>
+      <Row>
+        <Card>
+            <Card.Header><b style={{fontSize:'18px', color:'#FF5733'}}>Work History</b></Card.Header>
+        </Card>
+      </Row>
+      <Row>
+        <DunAndBradstreet/>
       </Row>
     </Container>
     </>

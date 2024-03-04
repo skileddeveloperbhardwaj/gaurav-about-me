@@ -11,8 +11,8 @@ function ProfileNavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Self-Rating</Nav.Link>
+            <Nav.Link href="#home"><b style={{color:'red'}}>Patents**</b></Nav.Link>
+            <Nav.Link href="#link">Tech Self-Rating</Nav.Link>
             <NavDropdown title="" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">General Views</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
